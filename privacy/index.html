@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Livedesk Privacy Policy</title>
+  <meta name="description" content="How Livedesk handles your data: it runs on your computer and sends nothing to its developer.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>Livedesk Privacy Policy</h1>
+    <p class="updated">Last updated: October 13, 2026</p>
+
+    <p>Livedesk is a desktop wallpaper app for Windows and macOS, made by an independent developer
+      (“we”). This policy explains what data Livedesk uses and where it goes.</p>
+
+    <p><strong>In short:</strong> Livedesk runs entirely on your computer. We don't run servers for it,
+      you don't make an account with us, and Livedesk sends us nothing: no analytics, no crash reports,
+      no tracking. Your data goes only between your computer and the services you choose to connect.</p>
+
+    <h2>How Livedesk works</h2>
+    <p>Livedesk runs a small program on your computer that only your own computer can reach
+      (<code>127.0.0.1</code>). It fetches what each card shows straight from the service involved, keeps
+      it in memory to show it, and stores your settings on your computer. Nothing passes through us.</p>
+
+    <h2>What each feature uses</h2>
+    <div class="wrap">
+    <table>
+      <tr><th>Feature</th><th>What Livedesk reads or does</th><th>Who it talks to</th></tr>
+      <tr><td>Weather</td>
+        <td>Your approximate location (from your internet address), unless you enter a location yourself.
+          The location is used to get the forecast and to choose the night sky shown.</td>
+        <td>Location lookup services (ipwho.is, ipapi.co) and weather providers (currently Open-Meteo, and in
+          the US the National Weather Service)</td></tr>
+      <tr><td>Calendar</td>
+        <td>Your events for the coming days, read-only. Livedesk never creates, changes or deletes events.</td>
+        <td>Google Calendar, through a private calendar link you provide or by signing in with Google</td></tr>
+      <tr><td>To-do</td>
+        <td>Your open tasks in Google Tasks. Livedesk adds a task when you ask it to and marks a task complete
+          when you tick it. It never deletes tasks.</td>
+        <td>Google Tasks, after you sign in with Google</td></tr>
+      <tr><td>Email (optional, advanced)</td>
+        <td>For unread and starred messages: sender, subject and date only, read-only. Livedesk never
+          downloads message bodies or attachments, never marks anything as read, and never sends email.</td>
+        <td>Gmail, with an app password you create</td></tr>
+      <tr><td>News</td>
+        <td>Headlines and links from the news sites and feeds you add. Clicking a headline opens it in your
+          browser.</td>
+        <td>The sites you add</td></tr>
+      <tr><td>Markets</td>
+        <td>Your account balances, positions and watchlist, and market prices, read-only. Livedesk never
+          places trades or moves money, and it doesn't give investment advice.</td>
+        <td>Your broker (such as Alpaca or Charles Schwab), with API keys you create</td></tr>
+      <tr><td>Wallpaper</td>
+        <td>Pictures you put in Livedesk's backgrounds folder are shown as the background.</td>
+        <td>Nobody: they stay on your computer</td></tr>
+    </table>
+    </div>
+    <p>Every connection is optional. A card you don't set up doesn't contact anything. Each service has its own
+      privacy policy, which covers what it does with requests from your computer.</p>
+
+    <h2>Google user data</h2>
+    <p>If you sign in with Google, Livedesk asks only for the permissions its cards need: Google Tasks
+      (to show, add and complete tasks) and, for the Calendar card, read-only access to your calendars.
+      Google user data is used only to show it on your own screen and to make the task changes you ask for.
+      It is stored only on your computer, never sent to us or to anyone else, never sold, never used for
+      advertising, and never used to train AI models. No person reads it.</p>
+    <p>Livedesk's use and transfer to any other app of information received from Google APIs will adhere to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+      Policy</a>, including the Limited Use requirements.</p>
+    <p>You can remove Livedesk's access at any time in your
+      <a href="https://myaccount.google.com/permissions">Google Account's third-party access settings</a>.</p>
+
+    <h2>What is stored, and where</h2>
+    <p>Livedesk stores your settings, the news sources you add, and the sign-in tokens, app passwords and API
+      keys you give it, on your computer only: in Livedesk's folder or your system's secure credential store
+      (Windows Credential Manager or the macOS Keychain). Card contents are kept in memory while Livedesk runs
+      and are not saved. Livedesk keeps a local log file for troubleshooting, written so that it leaves out
+      your calendar links, passwords and keys. Uninstalling Livedesk and deleting its folder removes all of it.</p>
+
+    <h2>Licence keys and purchases</h2>
+    <p>Livedesk checks its licence key on your computer, without contacting us. Purchases are handled by the
+      store you buy from (itch.io or the Microsoft Store) under that store's privacy policy. We may receive the
+      order details the store shares with sellers, such as an email address and an order number, and use them
+      only to help with your purchase or licence.</p>
+
+    <h2>Updates</h2>
+    <p>On macOS, Livedesk checks this website for a newer version. That is an ordinary web request: it
+      includes your internet address, as every web request does, and nothing about you or your data. On
+      Windows, the Microsoft Store handles updates.</p>
+
+    <h2>Children</h2>
+    <p>Livedesk is not directed at children under 13, and we don't knowingly collect any data from anyone.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new date. If a change affects
+      how Google user data is handled, Livedesk will ask for your consent again before it applies.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy or your data: contact us through the Livedesk page on itch.io. A support
+      email address will be listed here.</p>
+
+    <footer><a href="/">Livedesk</a></footer>
+  </main>
+</body>
+</html>
